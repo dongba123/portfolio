@@ -24,8 +24,8 @@ export function HeroSection({ hasStarted, onStart, onReset }: HeroSectionProps) 
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-          QA Portfolio
-          <span className="text-primary"> – Test This Website</span>
+          Hey there! <br/>
+          <span className="text-primary" > Welcome to my Portfolio.</span>
         </h1>
 
         <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">

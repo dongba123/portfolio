@@ -1,20 +1,19 @@
-import { User, Target, Award } from 'lucide-react';
+import { User, Target, Award, ImageIcon } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
+import Image from 'next/image';
 
 export function AboutSection() {
   return (
     <div className="space-y-6">
       <div className="flex flex-col md:flex-row gap-6 items-start">
-        <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-          <User className="h-12 w-12 text-primary" />
+        <div className="relative w-36 h-36 rounded-full bg-primary/10 overflow-hidden shrink-0">
+        <Image src="/1.jpg" alt="Profile picture" fill className="object-cover" priority />
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-foreground mb-2">John Doe</h3>
+          <h3 className="text-xl font-semibold text-foreground mb-2">Tshering Netup Lama</h3>
           <p className="text-primary font-medium mb-3">QA Engineer & Software Tester</p>
           <p className="text-muted-foreground leading-relaxed">
-            Passionate QA professional with 5+ years of experience in manual and automated testing. 
-            I specialize in finding edge cases others miss and creating comprehensive test strategies 
-            that ensure software quality from development to deployment.
+           I am a detail-oriented QA Engineer with hands-on experience in manual testing and a strong understanding of real-world software workflows. I enjoy breaking applications to understand how they work and identifying issues before they reach users.
           </p>
         </div>
       </div>
@@ -25,7 +24,7 @@ export function AboutSection() {
             <Target className="h-8 w-8 text-primary mb-3" />
             <h4 className="font-semibold text-foreground mb-1">Attention to Detail</h4>
             <p className="text-sm text-muted-foreground">
-              Meticulous approach to finding even the smallest inconsistencies.
+              I carefully examine every screen, flow, and interaction to catch even the smallest UI, functional, and logical issues.
             </p>
           </CardContent>
         </Card>
@@ -34,7 +33,7 @@ export function AboutSection() {
             <Award className="h-8 w-8 text-primary mb-3" />
             <h4 className="font-semibold text-foreground mb-1">Quality Focused</h4>
             <p className="text-sm text-muted-foreground">
-              Committed to delivering bug-free, polished user experiences.
+              I believe quality is built, not tested in. My goal is to ensure stable, user-friendly, and reliable software before release.
             </p>
           </CardContent>
         </Card>
@@ -43,7 +42,7 @@ export function AboutSection() {
             <User className="h-8 w-8 text-primary mb-3" />
             <h4 className="font-semibold text-foreground mb-1">User Advocate</h4>
             <p className="text-sm text-muted-foreground">
-              Testing from the user's perspective to ensure great UX.
+              I test applications from a real user’s perspective to ensure smooth experiences, clear feedback, and intuitive workflows.
             </p>
           </CardContent>
         </Card>

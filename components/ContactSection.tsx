@@ -23,29 +23,29 @@ export function ContactSection() {
             <h3 className="font-semibold text-foreground mb-4">Contact Information</h3>
             <div className="space-y-3 text-left">
               <a 
-                href="mailto:john.doe@example.com" 
+                href="mailto:tsheringlama449@gmail.com" 
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5" />
-                john.doe@example.com
+                tsheringlama449@gmail.com
               </a>
               <a 
-                href="https://linkedin.com/in/johndoe" 
+                href="https://www.linkedin.com/in/tshering-netup-lama-947709353/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
-                linkedin.com/in/johndoe
+                linkedin.com/Tshering
               </a>
               <a 
-                href="https://github.com/johndoe" 
+                href="https://github.com/dongba123" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Github className="h-5 w-5" />
-                github.com/johndoe
+                github.com/dongba
               </a>
             </div>
           </CardContent>
