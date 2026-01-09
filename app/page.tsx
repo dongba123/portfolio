@@ -146,9 +146,8 @@ const Index = () => {
         </>
       )}
 
-      <footer className="py-8 px-6 border-t border-border text-center">
         <p className="text-sm text-muted-foreground">
-          © 2026 Tsherign Netup Lama. All rights reserved.
+          © 2026 Tshering Netup Lama. All rights reserved.
         </p>
       </footer>
     </div>
